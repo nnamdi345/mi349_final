@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="sticky">
+        <p class="logo"><a href="index.html"> Nnamdi Iroha</a></p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header> 
+    <main>
+        <h1>Feel free to contact me!</h1>
+        <p>I would love to here of current projects and activities taking place around the world!</p>
+        <form method="get" class="contact-form">
+            <div class="contact-form">
+                <label for="name">Full Name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="contact-form">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contact-form">
+                <label for="reason-for-contact">Reason for contact: </label>
+                <select id="reason-for-contact">
+                    <option value="">--Please choose an option--</option>
+                    <option value="hi">Saying hi</option>
+                    <option value="project">ICT Project</option>
+                    <option value="interview">Interested in an interview</option>
+                </select>
+            </div>
+            <div class="contact-form">
+                <label for="comment">Comment: </label>
+                <p> </p>
+                <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+            </div>
+            <div class="contact-form">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

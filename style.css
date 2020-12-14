@@ -1,0 +1,140 @@
+body {
+    background-image: url(backgroundpic.jpg);
+    color: white;
+    font-family: sans-serif;
+}
+
+html {
+    font-family: 'lato';
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 20px;
+    padding: 0 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: transparent;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    left: 3%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    z-index: -1;
+}
+
+.logo a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.card .avatar img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 8px;
+}
+
+.card {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 85vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    color: wheat;
+    text-align: center;
+}
+
+.content h2, p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.content h2 {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.content h3 {
+    margin-top: 20px;
+    color: whitesmoke;
+}
+img{
+    width: 100%;
+}
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts  li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.about_card {
+    background-color: #000;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0, 0.1) 10px 10px 5px;
+    border: 2px solid #aaa;
+}
+
+#blog {
+    border-top: 1px dotted grey;
+    display: flex;
+}
+
+.secs {
+    padding: 20px;
+    margin: 20px;
+}
